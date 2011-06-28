@@ -12,6 +12,8 @@ License:        GPL-3
 Group:          System/Base
 Source0:        %{name}-%{version}.tar.bz2
 BuildRequires:  qxmlrpc
+BuildRequires: qt4-devel
+
 %description
 sphere-client-rosa
 %prep
