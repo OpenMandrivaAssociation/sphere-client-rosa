@@ -9,7 +9,7 @@ Name:           %{name}
 Version:        %{version}
 Release:        %{release}
 License:        GPL-3
-Group:          Network
+Group:          System/Configuration
 Source0:        %{name}-%{version}.tar.bz2
 BuildRequires:  qxmlrpc
 %description
