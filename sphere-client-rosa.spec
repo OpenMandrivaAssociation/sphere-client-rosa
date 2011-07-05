@@ -1,7 +1,7 @@
 Summary:        sphere-client-rosa
 Name:           sphere-client-rosa
 Version:        1
-Release:        3
+Release:        4
 License:        GPLv3
 Group:          System/Base
 Source0:        %{name}-%{version}.tar.bz2
