@@ -1,11 +1,10 @@
 Summary:        sphere-client-rosa
 Name:           sphere-client-rosa
 Version:        1
-Release:        4
+Release:        5
 License:        GPLv3
 Group:          System/Base
 Source0:        %{name}-%{version}.tar.bz2
-Source1:        sphere-client.desktop
 BuildRequires:  qxmlrpc
 BuildRequires:  qt4-devel
 
@@ -13,7 +12,6 @@ BuildRequires:  qt4-devel
 %defattr(0755,root,root)
 %{_bindir}/sphere-client
 %{_sysconfdir}/sphere-client.conf
-%{_datadir}/autostart/sphere-client.desktop
 
 #--------------------------------------------------------------------
 
@@ -30,8 +28,6 @@ sphere-client-rosa
 %install
 mkdir -p %buildroot%{_bindir}
 mkdir -p %buildroot%{_sysconfdir}
-mkdir -p %buildroot%{_datadir}/autostart
 cp sphere-client %buildroot%{_bindir}
 cp sphere-client.conf %buildroot%{_sysconfdir}
-cp %SOURCE1 %buildroot%{_datadir}/autostart/
 
