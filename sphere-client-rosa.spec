@@ -1,6 +1,6 @@
 %define debug_package %{nil}
 
-Summary:        sphere-client-rosa
+Summary:        Sphere-client-rosa
 Name:           sphere-client-rosa
 Version:        1
 Release:        11
