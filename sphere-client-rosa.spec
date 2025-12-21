@@ -7,6 +7,7 @@ Release:        21
 License:        GPLv3
 Group:          System/Base
 Source0:        %{name}-%{version}.tar.bz2
+BuildRequires:	make
 BuildRequires:  qxmlrpc-devel
 BuildRequires:  qt4-devel
 
